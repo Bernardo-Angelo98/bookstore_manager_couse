@@ -1,8 +1,16 @@
 package com.bern6angel.bookstoremanager.entity;
 
+import lombok.*;
+
 import javax.persistence.*;
 
 @Entity
+@Data
+@Builder
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Book {
 
     @Id
